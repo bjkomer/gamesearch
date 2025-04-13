@@ -1,0 +1,206 @@
+[
+    {
+        "name": "Catan",
+        "description": "A game of building settlements and roads on a board with hexagonal tiles.",
+        "min_players": 3,
+        "max_players": 4,
+        "play_time": 60
+    },
+    {
+        "name": "Carcassonne",
+        "description": "",
+        "min_players": 2,
+        "max_players": 5,
+        "play_time": 30
+    },
+    {
+        "name": "Splendor",
+        "description": "",
+        "min_players": 2,
+        "max_players": 4,
+        "play_time": 30
+    },
+    {
+        "name": "Dixit",
+        "description": "",
+        "min_players": 2,
+        "max_players": 6,
+        "play_time": 30
+    },
+    {
+        "name": "Dutch Blitz",
+        "description": "A Vonderful Goot Game",
+        "min_players": 2,
+        "max_players": 8,
+        "play_time": 30
+    },
+    {
+        "name": "Anomia",
+        "description": "",
+        "min_players": 2,
+        "max_players": 8,
+        "play_time": 10
+    },
+    {
+        "name": "Set",
+        "description": "",
+        "min_players": 2,
+        "max_players": 8,
+        "play_time": 10
+    },
+    {
+        "name": "Poker",
+        "description": "An early version of Balatro",
+        "min_players": 2,
+        "max_players": 10,
+        "play_time": 30
+    },
+    {
+        "name": "Splendor",
+        "description": "",
+        "min_players": 2,
+        "max_players": 4,
+        "play_time": 30
+    },
+    {
+        "name": "Ultimate Werewolf",
+        "description": "",
+        "min_players": 5,
+        "max_players": 75,
+        "play_time": 30
+    },
+    {
+        "name": "Codenames",
+        "description": "",
+        "min_players": 2,
+        "max_players": 10,
+        "play_time": 30
+    },
+    {
+        "name": "Steampunk Rally",
+        "description": "",
+        "min_players": 2,
+        "max_players": 8,
+        "play_time": 90
+    },
+    {
+        "name": "Bang!",
+        "description": "",
+        "min_players": 3,
+        "max_players": 8,
+        "play_time": 30
+    },
+    {
+        "name": "Coup",
+        "description": "",
+        "min_players": 2,
+        "max_players": 6,
+        "play_time": 15
+    },
+    {
+        "name": "Power Grid",
+        "description": "",
+        "min_players": 2,
+        "max_players": 5,
+        "play_time": 120
+    },
+    {
+        "name": "Agricola",
+        "description": "",
+        "min_players": 1,
+        "max_players": 5,
+        "play_time": 120
+    },
+    {
+        "name": "Monopoly Deal",
+        "description": "",
+        "min_players": 2,
+        "max_players": 5,
+        "play_time": 30
+    },
+    {
+        "name": "Pandemic: The Cure",
+        "description": "",
+        "min_players": 2,
+        "max_players": 5,
+        "play_time": 30
+    },
+    {
+        "name": "Ticket to Ride: Europe",
+        "description": "",
+        "min_players": 2,
+        "max_players": 5,
+        "play_time": 30
+    },
+    {
+        "name": "Puerto Rico",
+        "description": "",
+        "min_players": 2,
+        "max_players": 5,
+        "play_time": 120
+    },
+    {
+        "name": "Dominion",
+        "description": "",
+        "min_players": 2,
+        "max_players": 4,
+        "play_time": 30
+    },
+    {
+        "name": "Labyrinth",
+        "description": "",
+        "min_players": 2,
+        "max_players": 4,
+        "play_time": 30
+    },
+    {
+        "name": "Love Letter",
+        "description": "",
+        "min_players": 2,
+        "max_players": 4,
+        "play_time": 15
+    },
+    {
+        "name": "Scrabble",
+        "description": "",
+        "min_players": 2,
+        "max_players": 4,
+        "play_time": 30
+    },
+    {
+        "name": "Chess",
+        "description": "",
+        "min_players": 2,
+        "max_players": 2,
+        "play_time": 30
+    },
+    {
+        "name": "Jungle Speed",
+        "description": "",
+        "min_players": 2,
+        "max_players": 10,
+        "play_time": 20
+    },
+    {
+        "name": "Stratego",
+        "description": "",
+        "min_players": 2,
+        "max_players": 2,
+        "play_time": 30
+    },
+    {
+        "name": "Avalon",
+        "description": "",
+        "min_players": 5,
+        "max_players": 10,
+        "play_time": 30
+    },
+    {
+        "name": "Letter Jam",
+        "description": "",
+        "min_players": 2,
+        "max_players": 6,
+        "play_time": 60
+    }
+        
+]
