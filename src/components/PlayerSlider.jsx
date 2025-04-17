@@ -4,6 +4,7 @@ import Slider from '@mui/material/Slider';
 export default function PlayerSlider() {
     const [value, setValue] = useState([1, 10]);
     const sliderRef = useRef(null);
+    const trackInfoRef = useRef({ downX: 0, downY: 0, isTrack: false });
 
     const min = 1;
     const max = 10;
@@ -17,10 +18,7 @@ export default function PlayerSlider() {
     
         const rawValue = min + percent * (max - min);
         const snappedValue = Math.round(rawValue); // snap to nearest mark
-        if ((value[0] != snappedValue) && (value[1] != snappedValue)) {
-            event.stopPropagation();
-            setValue([snappedValue, snappedValue]);
-        }
+        setValue([snappedValue, snappedValue]);
     };
 
     const handleLabelClick = (val, event) => {
@@ -50,12 +48,20 @@ export default function PlayerSlider() {
             marks={marks}
             value={value}
             onChange={(e, newValue) => setValue(newValue)}
-            onClick={(e) => {
-                // Only handle track clicks if we're not clicking on a thumb
-                if (e.target.getAttribute('aria-valuenow') === null) {
-                    handleTrackClick(e);
+            onMouseDown={(e) => {
+                trackInfoRef.current.downX = e.clientX;
+                trackInfoRef.current.downY = e.clientY;
+                trackInfoRef.current.isTrack = e.target.getAttribute('aria-valuenow') === null;
+            }}
+            onMouseUp={(e) => {
+                if (trackInfoRef.current.isTrack) {
+                    const dx = Math.abs(e.clientX - trackInfoRef.current.downX);
+                    const dy = Math.abs(e.clientY - trackInfoRef.current.downY);
+                    if (dx < 3 && dy < 3) {
+                        handleTrackClick(e);
+                    }
                 }
-                // handleTrackClick(e);
+                trackInfoRef.current.isTrack = false;
             }}
             valueLabelDisplay="auto"
             aria-labelledby="player-slider"
