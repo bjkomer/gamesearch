@@ -1,0 +1,30 @@
+name: build & deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read       # to checkout
+  pages: write         # to publish
+  id-token: write      # required by the pages action
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      - run: npm ci
+      - run: npm run build
+      # configure the pages environment
+      - uses: actions/configure-pages@v3
+      # upload your build output
+      - uses: actions/upload-pages-artifact@v2
+        with:
+          path: dist
+      # finally push to GitHub Pages
+      - uses: actions/deploy-pages@v2
