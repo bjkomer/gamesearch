@@ -62,8 +62,8 @@ def download_image(url, path):
         print(f"Error downloading {url}: {e}")
 
 def process_games(game_list, output_csv="bgg_images.csv", sleep_time=10):
-    os.makedirs("../data/images/full", exist_ok=True)
-    os.makedirs("../data/images/thumbnail", exist_ok=True)
+    os.makedirs("../public/images/full", exist_ok=True)
+    os.makedirs("../public/images/thumbnail", exist_ok=True)
 
     results = []
 
@@ -78,12 +78,12 @@ def process_games(game_list, output_csv="bgg_images.csv", sleep_time=10):
 
             # Download full image
             if data["image"]:
-                img_path = f"images/full/{safe_name}.jpg"
+                img_path = f"../public/images/full/{safe_name}.jpg"
                 download_image(data["image"], img_path)
 
             # Download thumbnail
             if data["thumbnail"]:
-                thumb_path = f"images/thumbnail/{safe_name}_thumb.jpg"
+                thumb_path = f"../public/images/thumbnail/{safe_name}_thumb.jpg"
                 download_image(data["thumbnail"], thumb_path)
 
         else:

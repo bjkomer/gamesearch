@@ -4,7 +4,7 @@
         "description": "A game of building settlements and roads on a board with hexagonal tiles.",
         "min_players": 3,
         "max_players": 4,
-        "play_time": 60,
+        "play_time": 120,
         "image": "./images/full/catan.jpg",
         "thumbnail": "./images/thumbnail/catan_thumb.jpg"
     },
@@ -13,7 +13,7 @@
         "description": "A tile-placement game where players build medieval landscapes with cities, roads, and fields, scoring points for completed features.",
         "min_players": 2,
         "max_players": 5,
-        "play_time": 30,
+        "play_time": 45,
         "image": "./images/full/carcassonne.jpg",
         "thumbnail": "./images/thumbnail/carcassonne_thumb.jpg"
     },
@@ -29,7 +29,7 @@
     {
         "name": "Dixit",
         "description": "A creative storytelling game where players give clues about their cards using words, sounds, or gestures, while others try to guess the correct card.",
-        "min_players": 2,
+        "min_players": 3,
         "max_players": 6,
         "play_time": 30,
         "image": "./images/full/dixit.jpg",
@@ -40,25 +40,25 @@
         "description": "A Vonderful Goot Game",
         "min_players": 2,
         "max_players": 8,
-        "play_time": 30,
+        "play_time": 15,
         "image": "./images/full/dutch_blitz.jpg",
         "thumbnail": "./images/thumbnail/dutch_blitz_thumb.jpg"
     },
     {
         "name": "Anomia",
         "description": "A fast-paced card game where players race to name examples of categories when matching symbols appear, testing quick thinking and reflexes.",
-        "min_players": 2,
-        "max_players": 8,
-        "play_time": 10,
+        "min_players": 3,
+        "max_players": 6,
+        "play_time": 30,
         "image": "./images/full/anomia.jpg",
         "thumbnail": "./images/thumbnail/anomia_thumb.jpg"
     },
     {
         "name": "Set",
         "description": "A real-time pattern recognition game where players race to find sets of three cards that share or differ in color, shape, number, and shading.",
-        "min_players": 2,
-        "max_players": 8,
-        "play_time": 10,
+        "min_players": 3,
+        "max_players": 99,
+        "play_time": 60,
         "image": "./images/full/set.jpg",
         "thumbnail": "./images/thumbnail/set_thumb.jpg"
     },
@@ -67,7 +67,7 @@
         "description": "An early version of Balatro",
         "min_players": 2,
         "max_players": 10,
-        "play_time": 30,
+        "play_time": 60,
         "image": "./images/full/poker.jpg",
         "thumbnail": "./images/thumbnail/poker_thumb.jpg"
     },
@@ -76,7 +76,7 @@
         "description": "A social deduction game where players are secretly assigned roles as villagers or werewolves, with villagers trying to identify and eliminate the werewolves.",
         "min_players": 5,
         "max_players": 75,
-        "play_time": 30,
+        "play_time": 90,
         "image": "./images/full/ultimate_werewolf.jpg",
         "thumbnail": "./images/thumbnail/ultimate_werewolf_thumb.jpg"
     },
@@ -94,16 +94,16 @@
         "description": "A racing game where players build and modify their own steampunk machines using dice and cards, competing to cross the finish line first.",
         "min_players": 2,
         "max_players": 8,
-        "play_time": 90,
+        "play_time": 60,
         "image": "./images/full/steampunk_rally.jpg",
         "thumbnail": "./images/thumbnail/steampunk_rally_thumb.jpg"
     },
     {
         "name": "Bang!",
         "description": "A spaghetti western-themed card game where players take on hidden roles and try to eliminate their targets while protecting their allies.",
-        "min_players": 3,
-        "max_players": 8,
-        "play_time": 30,
+        "min_players": 4,
+        "max_players": 7,
+        "play_time": 40,
         "image": "./images/full/bang!.jpg",
         "thumbnail": "./images/thumbnail/bang!_thumb.jpg"
     },
@@ -111,8 +111,8 @@
         "name": "Coup",
         "description": "A bluffing game where players use influence to eliminate rivals while trying to maintain their own influence in a dystopian future.",
         "min_players": 2,
-        "max_players": 6,
-        "play_time": 15,
+        "max_players": 2,
+        "play_time": 60,
         "image": "./images/full/coup.jpg",
         "thumbnail": "./images/thumbnail/coup_thumb.jpg"
     },
@@ -120,7 +120,7 @@
         "name": "Power Grid",
         "description": "A strategic game where players compete to build the most efficient power grid by buying power plants, resources, and connecting cities.",
         "min_players": 2,
-        "max_players": 5,
+        "max_players": 6,
         "play_time": 120,
         "image": "./images/full/power_grid.jpg",
         "thumbnail": "./images/thumbnail/power_grid_thumb.jpg"
@@ -130,7 +130,7 @@
         "description": "A farming simulation game where players build and manage their own farm, growing crops, raising animals, and expanding their family.",
         "min_players": 1,
         "max_players": 5,
-        "play_time": 120,
+        "play_time": 150,
         "image": "./images/full/agricola.jpg",
         "thumbnail": "./images/thumbnail/agricola_thumb.jpg"
     },
@@ -138,8 +138,8 @@
         "name": "Monopoly Deal",
         "description": "A fast-paced card game version of Monopoly where players collect property sets and use action cards to steal from opponents.",
         "min_players": 2,
-        "max_players": 5,
-        "play_time": 30,
+        "max_players": 3,
+        "play_time": 15,
         "image": "./images/full/monopoly_deal.jpg",
         "thumbnail": "./images/thumbnail/monopoly_deal_thumb.jpg"
     },
@@ -157,16 +157,16 @@
         "description": "A train adventure game where players collect cards to claim railway routes across Europe, connecting cities and completing destination tickets.",
         "min_players": 2,
         "max_players": 5,
-        "play_time": 30,
+        "play_time": 60,
         "image": "./images/full/ticket_to_ride_europe.jpg",
         "thumbnail": "./images/thumbnail/ticket_to_ride_europe_thumb.jpg"
     },
     {
         "name": "Puerto Rico",
         "description": "A strategic game where players develop plantations, construct buildings, and ship goods to earn victory points in colonial Puerto Rico.",
-        "min_players": 2,
+        "min_players": 3,
         "max_players": 5,
-        "play_time": 120,
+        "play_time": 150,
         "image": "./images/full/puerto_rico.jpg",
         "thumbnail": "./images/thumbnail/puerto_rico_thumb.jpg"
     },
@@ -184,7 +184,7 @@
         "description": "A maze game where players shift the board to create paths, collecting treasures while trying to block opponents from reaching their goals.",
         "min_players": 2,
         "max_players": 4,
-        "play_time": 30,
+        "play_time": 20,
         "image": "./images/full/labyrinth.jpg",
         "thumbnail": "./images/thumbnail/labyrinth_thumb.jpg"
     },
@@ -202,7 +202,7 @@
         "description": "A classic word game where players use letter tiles to create words on a board, scoring points based on letter values and premium squares.",
         "min_players": 2,
         "max_players": 4,
-        "play_time": 30,
+        "play_time": 90,
         "image": "./images/full/scrabble.jpg",
         "thumbnail": "./images/thumbnail/scrabble_thumb.jpg"
     },
@@ -211,7 +211,7 @@
         "description": "A strategic two-player game where players maneuver their pieces to capture the opponent's king while protecting their own.",
         "min_players": 2,
         "max_players": 2,
-        "play_time": 30,
+        "play_time": 0,
         "image": "./images/full/chess.jpg",
         "thumbnail": "./images/thumbnail/chess_thumb.jpg"
     },
@@ -220,7 +220,7 @@
         "description": "A fast-paced reaction game where players race to grab the totem when matching symbols appear, testing reflexes and observation skills.",
         "min_players": 2,
         "max_players": 10,
-        "play_time": 20,
+        "play_time": 10,
         "image": "./images/full/jungle_speed.jpg",
         "thumbnail": "./images/thumbnail/jungle_speed_thumb.jpg"
     },
@@ -229,16 +229,16 @@
         "description": "A two-player strategy game where players position their hidden army pieces to capture the opponent's flag while protecting their own.",
         "min_players": 2,
         "max_players": 2,
-        "play_time": 30,
+        "play_time": 45,
         "image": "./images/full/stratego.jpg",
         "thumbnail": "./images/thumbnail/stratego_thumb.jpg"
     },
     {
         "name": "Avalon",
         "description": "A social deduction game where players take on roles of loyal servants of Arthur or undetected minions of Mordred, trying to complete quests or sabotage them.",
-        "min_players": 5,
-        "max_players": 10,
-        "play_time": 30,
+        "min_players": 2,
+        "max_players": 2,
+        "play_time": 45,
         "image": "./images/full/avalon.jpg",
         "thumbnail": "./images/thumbnail/avalon_thumb.jpg"
     },
@@ -247,7 +247,7 @@
         "description": "A cooperative word game where players work together to deduce their hidden letters and form words, helping each other with clues.",
         "min_players": 2,
         "max_players": 6,
-        "play_time": 60,
+        "play_time": 45,
         "image": "./images/full/letter_jam.jpg",
         "thumbnail": "./images/thumbnail/letter_jam_thumb.jpg"
     },
@@ -263,9 +263,9 @@
     {
         "name": "Freelancers",
         "description": "A fantasy-themed worker placement game where players take on quests, hire adventurers, and manage resources to build their reputation.",
-        "min_players": 2,
-        "max_players": 4,
-        "play_time": 60,
+        "min_players": 3,
+        "max_players": 7,
+        "play_time": 180,
         "image": "./images/full/freelancers.jpg",
         "thumbnail": "./images/thumbnail/freelancers_thumb.jpg"
     },
@@ -281,9 +281,9 @@
     {
         "name": "Snake Oil",
         "description": "A creative party game where players combine word cards to create ridiculous products and pitch them to a rotating customer.",
-        "min_players": 3,
-        "max_players": 10,
-        "play_time": 30,
+        "min_players": 2,
+        "max_players": 8,
+        "play_time": 25,
         "image": "./images/full/snake_oil.jpg",
         "thumbnail": "./images/thumbnail/snake_oil_thumb.jpg"
     },
@@ -308,9 +308,9 @@
     {
         "name": "Between Two Castles",
         "description": "A tile-drafting game where players work with their neighbors to build castles, scoring points based on the castles they helped build.",
-        "min_players": 3,
-        "max_players": 7,
-        "play_time": 45,
+        "min_players": 1,
+        "max_players": 8,
+        "play_time": 60,
         "image": "./images/full/between_two_castles.jpg",
         "thumbnail": "./images/thumbnail/between_two_castles_thumb.jpg"
     },
@@ -319,7 +319,7 @@
         "description": "A hidden role game where players are divided into three teams: Shadows, Hunters, and Neutrals, each with their own victory conditions.",
         "min_players": 4,
         "max_players": 8,
-        "play_time": 45,
+        "play_time": 60,
         "image": "./images/full/shadow_hunters.jpg",
         "thumbnail": "./images/thumbnail/shadow_hunters_thumb.jpg"
     },
@@ -363,8 +363,8 @@
         "name": "Scattergories The Card Game",
         "description": "A card-based version of the classic word game where players race to list unique items in categories that start with a specific letter.",
         "min_players": 2,
-        "max_players": 6,
-        "play_time": 30,
+        "max_players": 8,
+        "play_time": 25,
         "image": "./images/full/scattergories_the_card_game.jpg",
         "thumbnail": "./images/thumbnail/scattergories_the_card_game_thumb.jpg"
     },
@@ -372,8 +372,8 @@
         "name": "Legend of the Five Rings",
         "description": "A strategic card game set in the fantasy world of Rokugan, where players take on the roles of samurai clans competing for honor and influence.",
         "min_players": 2,
-        "max_players": 2,
-        "play_time": 60,
+        "max_players": 8,
+        "play_time": 45,
         "image": "./images/full/legend_of_the_five_rings.jpg",
         "thumbnail": "./images/thumbnail/legend_of_the_five_rings_thumb.jpg"
     },
@@ -391,7 +391,7 @@
         "description": "A cooperative programming game where players control mechs to defend against waves of minions, using command cards to plan their actions.",
         "min_players": 2,
         "max_players": 4,
-        "play_time": 90,
+        "play_time": 120,
         "image": "./images/full/mechs_vs._minions.jpg",
         "thumbnail": "./images/thumbnail/mechs_vs._minions_thumb.jpg"
     },
@@ -399,8 +399,8 @@
         "name": "Robo Rally",
         "description": "A chaotic racing game where players program their robots to navigate a factory floor filled with obstacles and other players' robots.",
         "min_players": 2,
-        "max_players": 8,
-        "play_time": 60,
+        "max_players": 6,
+        "play_time": 120,
         "image": "./images/full/robo_rally.jpg",
         "thumbnail": "./images/thumbnail/robo_rally_thumb.jpg"
     },
@@ -418,7 +418,7 @@
         "description": "A golf-themed card game where players try to get the lowest score by strategically playing and replacing cards in their hand.",
         "min_players": 2,
         "max_players": 6,
-        "play_time": 30,
+        "play_time": 45,
         "image": "./images/full/play_nine.jpg",
         "thumbnail": "./images/thumbnail/play_nine_thumb.jpg"
     },
@@ -430,5 +430,23 @@
         "play_time": 15,
         "image": "./images/full/that's_not_a_hat.jpg",
         "thumbnail": "./images/thumbnail/that's_not_a_hat_thumb.jpg"
+    },
+    {
+        "name": "Jenga",
+        "description": "A physical skill game where players take turns removing one block at a time from a tower and balancing it on top without toppling the tower.",
+        "min_players": 1,
+        "max_players": 8,
+        "play_time": 20,
+        "image": "./images/full/jenga.jpg",
+        "thumbnail": "./images/thumbnail/jenga_thumb.jpg"
+    },
+    {
+        "name": "Paperback",
+        "description": "A deck-building word game where players use letter cards to form words and purchase new cards to build their deck with more powerful letters.",
+        "min_players": 2,
+        "max_players": 5,
+        "play_time": 45,
+        "image": "./images/full/paperback.jpg",
+        "thumbnail": "./images/thumbnail/paperback_thumb.jpg"
     }
 ]
