@@ -18,8 +18,7 @@ export default function App() {
         .filter((game) => {
           const [minPlay, maxPlay] = playerRange;
           return (
-            (minPlay <= game.min_players && game.min_players <= maxPlay) ||
-            (minPlay <= game.max_players && game.max_players <= maxPlay)
+            (game.max_players >= minPlay) && (game.min_players <= maxPlay)
           );
         })
         .sort((a, b) => a.name.localeCompare(b.name))
