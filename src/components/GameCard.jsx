@@ -2,7 +2,7 @@ import './GameCard.css';
 function GameCard({ game }) {
     return (
       <div className="game-card">
-        <img src={game.thumbnail} alt={game.name} />
+        <img src={game.image} alt={game.name} />
         <h2 className="game-card__title">{game.name}</h2>
         <p className="game-card__description">{game.description}</p>
         <ul className="game-card__details">
