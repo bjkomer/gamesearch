@@ -372,8 +372,8 @@
         "name": "Legend of the Five Rings",
         "description": "A strategic card game set in the fantasy world of Rokugan, where players take on the roles of samurai clans competing for honor and influence.",
         "min_players": 2,
-        "max_players": 8,
-        "play_time": 45,
+        "max_players": 2,
+        "play_time": 75,
         "image": "./images/full/legend_of_the_five_rings.jpg",
         "thumbnail": "./images/thumbnail/legend_of_the_five_rings_thumb.jpg"
     },
@@ -448,5 +448,41 @@
         "play_time": 45,
         "image": "./images/full/paperback.jpg",
         "thumbnail": "./images/thumbnail/paperback_thumb.jpg"
+    },
+    {
+        "name": "So Clover!",
+        "description": "Work together using one-word clues to disentangle word pairs.",
+        "min_players": 2,
+        "max_players": 6,
+        "play_time": 30,
+        "image": "./images/full/so_clover.png",
+        "thumbnail": "./images/thumbnail/so_clover_thumb.png"
+    },
+    {
+        "name": "Galaxy Trucker",
+        "description": "Prepare for unknown dangers by building the best spaceship possible.",
+        "min_players": 2,
+        "max_players": 4,
+        "play_time": 60,
+        "image": "./images/full/galaxy_trucker.jpg",
+        "thumbnail": "./images/thumbnail/galaxy_trucker_thumb.jpg"
+    },
+    {
+        "name": "Tsuro",
+        "description": "Chose your path by placing tiles, but be careful not to fall off the map!",
+        "min_players": 2,
+        "max_players": 8,
+        "play_time": 20,
+        "image": "./images/full/tsuro.jpg",
+        "thumbnail": "./images/thumbnail/tsuro_thumb.jpg"
+    },
+    {
+        "name": "The Sushi Slayer",
+        "description": "Murder mystery scavenger hunt experience.",
+        "min_players": 2,
+        "max_players": 3,
+        "play_time": 30,
+        "image": "./images/full/the_sushi_slayer.jpg",
+        "thumbnail": "./images/thumbnail/the_sushi_slayer_thumb.jpg"
     }
 ]
